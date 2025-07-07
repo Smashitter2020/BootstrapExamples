@@ -52,7 +52,7 @@
           </svg>
         </button>
       </div>
-      <div class="d-flex flex-wrap gap-2 py-4 border-top">
+      <div class="d-flex flex-wrap gap-2 py-4 border-top border-bottom">
         <button class="btn btn-primary rounded-pill px-3" style="height: 3em;">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="me-1" style="margin-bottom: 2px;" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
@@ -102,13 +102,21 @@
           <span>New message</span>
         </button>
       </div>
-      <div class="d-flex flex-wrap gap-2 pb-4 border-bottom">
+      <div class="d-flex flex-wrap gap-2 pt-4 border-top">
         <button class="btn btn-primary rounded-pill" type="button" style="width: 3em; height: 3em;" disabled>
           <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
           <span class="visually-hidden" role="status">Loading...</span>
         </button>
         <button class="btn btn-primary rounded-pill px-3" type="button" style="height: 3em;" disabled>
           <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+          <span role="status">Loading...</span>
+        </button>
+        <button class="btn btn-primary rounded-pill" type="button" style="width: 3em; height: 3em;" disabled>
+          <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
+          <span class="visually-hidden" role="status">Loading...</span>
+        </button>
+        <button class="btn btn-primary rounded-pill px-3" type="button" style="height: 3em;" disabled>
+          <span class="spinner-grow spinner-grow-sm" aria-hidden="true"></span>
           <span role="status">Loading...</span>
         </button>
       </div>
