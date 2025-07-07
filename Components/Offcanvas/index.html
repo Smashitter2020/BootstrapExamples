@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Offcanvas Examples</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <style>body { padding: 2rem }</style>
   </head>
@@ -11,7 +12,7 @@
     <div class="container py-4">
     <h2 class="mb-5">Bootstrap Offcanvas Examples</h2>
 
-    <p class="mb-2">Offcanvas with navigation tabs and custom width</p>
+    <p class="mb-2 fw-bold">Offcanvas with navigation tabs and custom width</p>
     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
       Toggle offcanvas
     </button>
@@ -24,16 +25,19 @@
       <div class="offcanvas-body">
         <ul class="nav nav-pills flex-column nav-fill">
           <li class="nav-item">
-            <a class="nav-link active text-start" aria-current="page" href="#" data-bs-toggle="tab">Home</a>
+            <a class="nav-link active text-start" aria-current="page" href="#" data-bs-toggle="tab"><i class="bi bi-house-door-fill me-1"></i>Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-start" href="#" data-bs-toggle="tab">Files</a>
+            <a class="nav-link text-start" href="#" data-bs-toggle="tab"><i class="bi bi-file-earmark-fill me-1"></i>Files</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-start" href="#" data-bs-toggle="tab">Projects</a>
+            <a class="nav-link text-start" href="#" data-bs-toggle="tab"><i class="bi bi-layout-sidebar me-1"></i>Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-start" aria-disabled="true" href="#" data-bs-toggle="tab">Pages</a>
+            <a class="nav-link text-start" aria-disabled="true" href="#" data-bs-toggle="tab"><i class="bi bi-person-fill me-1"></i>Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-start" aria-disabled="true" href="#" data-bs-toggle="tab"><i class="bi bi-gear-fill me-1"></i>Settings</a>
           </li>
         </ul>
       </div>
