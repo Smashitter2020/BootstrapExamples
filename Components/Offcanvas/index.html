@@ -10,17 +10,19 @@
   <body>
     <div class="container py-4">
     <h2 class="mb-5">Bootstrap Offcanvas Examples</h2>
+
+    <p class="mb-2">Offcanvas with navigation tabs and custom width</p>
     <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
       Toggle offcanvas
     </button>
 
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" style="width: 250px">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        <ul class="nav nav-pills nav-fill">
+        <ul class="nav nav-pills flex-column nav-fill">
           <li class="nav-item">
             <a class="nav-link active text-start" aria-current="page" href="#" data-bs-toggle="tab">Home</a>
           </li>
