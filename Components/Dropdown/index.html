@@ -35,7 +35,44 @@
           <li><a class="dropdown-item" href="#">New release</a></li>
         </ul>
       </div>
+      <p class="fw-bold mb-2">Dropdown Menu with Sizing</p>
+      <div class="dropdown mb-5">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <span>Small dropdown</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-sm">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <div class="dropdown mb-5">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <span>Large dropdown</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>
     </div>
+    <style>
+      .dropdown-menu.dropdown-menu-lg {
+        border-radius: 8px;
+      }
+      .dropdown-menu-lg .dropdown-item {
+        font-size: 20px;
+        padding-inline: 20px;
+      }
+      .dropdown-menu.dropdown-menu-sm {
+        border-radius: 4px;
+      }
+      .dropdown-menu-sm .dropdown-item {
+        font-size: 14px;
+        padding-inline: 14px;
+      }
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
   </body>
 </html>
