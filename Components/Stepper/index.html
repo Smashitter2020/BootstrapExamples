@@ -20,13 +20,13 @@
   <div id="step-content">
     <div class="step" id="step1">
       <h4>Step 1</h4>
-      <p>Enter user details...</p>
+      <p>Enter user details</p>
       <input class="form-control mb-3" placeholder="Username">
-      <button class="btn btn-primary next-step">Next</button>
+      <button class="btn btn-primary next-step text-end">Next</button>
     </div>
     <div class="step d-none" id="step2">
       <h4>Step 2</h4>
-      <p>Choose preferences...</p>
+      <p>Choose preferences</p>
       <div class="form-check">
         <input class="form-check-input" type="checkbox" value="" id="checkDefault">
         <label class="form-check-label" for="checkDefault">Checkbox 1</label>
@@ -35,14 +35,22 @@
         <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
         <label class="form-check-label" for="checkChecked">Checkbox 2</label>
       </div>
-      <button class="btn btn-secondary prev-step">Back</button>
-      <button class="btn btn-primary next-step">Next</button>
+      <div class="d-flex justify-content-between">
+        <button class="btn btn-secondary prev-step">Back</button>
+        <button class="btn btn-primary next-step">Next</button>
+      </div>
     </div>
     <div class="step d-none" id="step3">
       <h4>Step 3</h4>
-      <p>Confirm and submit...</p>
-      <button class="btn btn-secondary prev-step">Back</button>
-      <button class="btn btn-success">Submit</button>
+      <p>Confirm and submit</p>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" value="" id="agreeCheck">
+        <label class="form-check-label" for="agreeCheck">I agree</label>
+      </div>
+      <div class="d-flex justify-content-between">
+        <button class="btn btn-secondary prev-step">Back</button>
+        <button class="btn btn-success">Submit</button>
+      </div>
     </div>
   </div>
 </div>
