@@ -11,19 +11,43 @@
     <div class="container py-4">
       <h2 class="mb-5">Bootstrap Input Group Examples</h2>
       <p class="fw-bold mb-2">Input group without addons</p>
-      <div class="input-group">
+      <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="Username">
         <input type="text" class="form-control" placeholder="Password">
       </div>
       <p class="fw-bold mb-2">Input group with floating labels and without addons</p>
-      <div class="input-group">
+      <div class="input-group mb-3">
         <div class="form-floating">
-          <input type="email" class="form-control">
-          <labe>Username</label>
+          <input type="text" class="form-control" id="floatingInputUsername">
+          <label for="floatingInputUsername">Username</label>
         </div>
         <div class="form-floating">
-          <input type="email" class="form-control">
-          <label>Password</label>
+          <input type="password" class="form-control" id="floatingInputPassword">
+          <label for="floatingInputPassword">Password</label>
+        </div>
+      </div>
+      <p class="fw-bold mb-2">Input group with form control and select without addons</p>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Username">
+        <select class="form-select">
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+        </select>
+      </div>
+      <p class="fw-bold mb-2">Input group with floating labels, form control and select without addons</p>
+      <div class="input-group mb-3">
+        <div class="form-floating">
+          <input type="text" class="form-control">
+          <label>Your label name</label>
+        </div>
+        <div class="form-floating">
+          <select class="form-select">
+            <option>Red</option>
+            <option>Green</option>
+            <option>Color</option>
+          </select>
+          <label>Choose color</label>
         </div>
       </div>
     </div>
