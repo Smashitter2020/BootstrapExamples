@@ -11,7 +11,7 @@
     <div class="container py-4">
       <h2 class="mb-4">Bootstrap Modal Examples</h2>
 
-      <p class="mb-2">Small modal (from MDBootstrap)</p>
+      <p class="fw-bold mb-2">Small modal (from MDBootstrap)</p>
       <!-- Button trigger modal -->
       <button type="button" class="btn btn-primary mb-5" data-bs-toggle="modal" data-bs-target="#smallModal">
         Launch demo modal
@@ -37,7 +37,7 @@
     </div>
   </div>
 </div>
-      <p class="mb-2">Tabs in modals</p>
+      <p class="fw-bold mb-2">Tabs in modals</p>
       <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">
   Launch demo modal
@@ -72,6 +72,53 @@
             <button class="btn btn-primary">Create account</button>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <p class="fw-bold mb-2">Dropdowns in modals</p>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dropdownModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="dropdownModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Dropdowns in modals</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="dropdown mb-2">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Seperated link</a></li>
+         </ul>
+        </div>
+        <div class="dropup">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropup button
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Seperated link</a></li>
+         </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
