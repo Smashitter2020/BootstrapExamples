@@ -46,6 +46,20 @@
       <div class="progress mb-4" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar" id="loadingBar"></div>
       </div>
+      <p class="fw-bold mb-2">Vertical progress bar</p>
+      <div class="d-block mb-4">
+        <div class="progress d-flex flex-column-reverse" style="width: 1rem; height: 300px;">
+          <div class="progress-bar bg-primary h-75 w-100"></div>
+        </div>
+      </div>
+      <p class="fw-bold mb-2">Vertical progress bar with stacked colors</p>
+      <div class="d-block mb-4">
+        <div class="progress d-flex flex-column-reverse" style="width: 1rem; height: 300px;">
+          <div class="progress-bar bg-primary w-100" style="height: 15%"></div>
+          <div class="progress-bar bg-success h-25" style="height: 30%"></div>
+          <div class="progress-bar bg-info h-25" style="height: 20%"></div>
+        </div>
+      </div>
     </div>
     <script>
     const bar = document.getElementById("loadingBar");
